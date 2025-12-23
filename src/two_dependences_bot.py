@@ -11,6 +11,8 @@ def get_note_highway_pixel_color():
         b, g, r, a = img.raw
         return (r, g, b)
     except Exception as e:
+        print(e)
+        pass
         return None
 
 def get_spool_pixel_color():
@@ -19,6 +21,8 @@ def get_spool_pixel_color():
         b, g, r, a = img.raw
         return (r, g, b)
     except Exception as e:
+        print(e)
+        pass
         return None
 
 while True:
